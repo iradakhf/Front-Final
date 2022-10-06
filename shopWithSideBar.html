@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ShopWithSidebar_eTrade</title>
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <header id="headerContact">
+        <div class="starter">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-6 col-sm-6 col-md-6 d-flex flex-wrap">
+                        <div id="buttonOnHeader1" class="col-lg-1-5 col-sm-4 col-4 button">
+                            <button class="btn d-flex flex-nowrap justify-content-center align-items-center">
+                                <span>English</span><i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="dropDownForButtonOnHeader1">
+                                <ul>
+                                    <li class="firstLi">English</li>
+                                    <li>Arabic</li>
+                                    <li>Spanish</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="buttonOnHeader2" class="col-lg-1-5 col-sm-4 col-4 button">
+                            <button class="btn d-flex flex-nowrap justify-content-center align-items-center">
+                                <span>USD</span><i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="dropDownForButtonOnHeader2">
+                                <ul>
+                                    <li class="firstLi">USD</li>
+                                    <li>AUD</li>
+                                    <li>EUR</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-6 col-sm-6 col-md-6 text-end leftPartOnStarter">
+                        <a href="">Help</a>
+                        <a href="">Join Us</a>
+                        <a href="signIn.html">Sign In</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="headerTop" class="headerTop">
+            <div class="container">
+                <div class="row align-items-center justify-content-between generalHeaderTop">
+                    <div class="col-lg-2 col-3 col-sm-3 headerTopLeft">
+                        <a
+                            href="https://preview.themeforest.net/item/etrade-multipurpose-ecommerce-html5-template/full_screen_preview/39507398?_ga=2.213917460.2094762525.1664255991-1783708921.1653369510"><img
+                                src="assets/images/logo.png" alt="eTradeLogo"></a>
+                    </div>
+                    <div class="col-lg-5 col-1">
+                        <div class="navBar">
+                            <ul>
+                                <li id="home">
+                                    <span>Home</span><i class="fa-solid fa-chevron-down"></i>
+                                    <div id="underHeaderBottomLinks" class="underline"></div>
+                                    <div class="navBarDropDownHome onHover">
+                                        <a href="electronics.html">Home - Electronics</a>
+                                        <a href="NFT.html">Home - NFT </a>
+                                        <a href="fashion.html">Home - Fashion</a>
+                                        <a href="jewellery.html">Home - Jewellery</a>
+                                        <a href="furniture.html">Home - Furniture</a>
+                                        <a id="multipurpose" href="index.html">Home - Multipurpose</a>
+                                        <a href="rtl.html">RTL Version</a>
+                                    </div>
+                                </li>
+
+                                <li id="shop">
+                                    <span>Shop</span><i class="fa-solid fa-chevron-down"></i>
+                                    <div id="underHeaderBottomLinks" class="underline1"></div>
+                                    <div class="navBarDropDownShop onHover">
+                                        <span id="shopWithSideBarActive">
+                                            <a href="shopWithSideBar.html">Shop With Sidebar</a>
+
+                                        </span>
+                                        <a href="shopWithNoSideBar.html">Shop no Sidebar</a>
+                                        <a href="productvariation1.html">Product Variation 1</a>
+                                        <a href="productvariation2.html">Product Variation 2</a>
+                                        <a href="productvariation3.html">Product Variation 3</a>
+                                        <a href="productvariation4.html">Product Variation 4</a>
+                                        <a href="productvariation5.html">Product Variation 5</a>
+                                        <a href="productvariation6.html">Product Variation 6</a>
+                                        <a href="productvariation7.html">Product Variation 7</a>
+                                    </div>
+                                </li>
+                                <li id="pages">
+                                    <span>Pages</span><i class="fa-solid fa-chevron-down"></i>
+                                    <div id="underHeaderBottomLinks" class="underline"></div>
+                                    <div class="navBarDropDownPages onHover">
+                                        <a href="wishlist.html">Wishlist</a>
+                                        <a href="cart.html">Cart</a>
+                                        <a href="checkout.html">Checkout</a>
+                                        <a href="account.html">Account</a>
+                                        <a href="signUp.html">Sign Up</a>
+                                        <a href="signIn.html">Sign In</a>
+                                        <a href="forgetPassword.html">Forgot Password</a>
+                                        <a href="resetPassword.html">Reset Password</a>
+                                        <a href="privacyPolicy.html">Privacy Policy</a>
+                                        <a href="commingSoon.html">Coming Soon</a>
+                                        <a href="404.html">404 Error</a>
+                                        <a href="typography.html">Typography</a>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>About</span>
+                                    <div class="underline"></div>
+                                </li>
+                                <li id="blog">
+                                    <span>Blog</span><i class="fa-solid fa-chevron-down"></i>
+                                    <div id="underHeaderBottomLinks" class="underline"></div>
+                                    <div class="navBarDropDownBlog onHover">
+                                        <a href="blogList.html">Blog List</a>
+                                        <a href="blogGrid.html">Blog Grid</a>
+                                        <a href="standardPost.html">Standard Post</a>
+                                        <a href="galleryPost.html">Gallery Post</a>
+                                        <a href="videoPost.html">Video Post</a>
+                                        <a href="audioPost.html">Audio Post</a>
+                                        <a href="quotePost.html">Quote Post</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span><a class="contactonnavbar" href="contact.html">Contact</a></span>
+
+                                    <div id="underHeaderBottomLinks" class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 search">
+                        <i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="What are you looking for....">
+
+                    </div>
+                    <div class="col-lg-2 col-7 col-sm-7 col-md-7 text-end col-6 right">
+                        <div class="icon searchIcon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <a href="cart.html">
+                            <div class="icon withCount">
+                                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                                <div class="count">
+                                    <p id="countBacket">0</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div id="iconUserI" class="icon">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <ul id="uluserDropDown" class="userDropDown text-start">
+                            <li>
+                                <span>QUICKLINKS</span>
+                                <div class="navBarDropDownBlog onHover">
+                                    <a href="#">My Account</a>
+                                    <a href="#">Initiate return</a>
+                                    <a href="#">Support</a>
+                                    <a href="#">Language</a>
+                                    <div class="btn">
+                                        
+                                        <button class="text-start">
+                                         Login
+                                        </button>
+                                    </div>
+                                   <span>
+                                    No account yet?
+                                    <span class="register"> Register Here.</span>
+                                   </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="iconMenu">
+                            <i id="menu-toggle" onclick="openNav()" class="fa-solid fa-bars"></i>
+                            </div>
+                            <div id="mySidenav" class="sidenav">
+                            <div class="container">
+                                <div class="row  logoPartOfsidebarMenu align-items-center">
+                                    <div class="col-6 pt-5">
+                                        <img src="assets/images/logo.png" alt="">
+                                    </div>
+                                    <div class="col-6 forExit text-center d-flex justify-content-end">
+                                        
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    </div>
+                                </div>
+                                <button class="accordion">Home <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="panel">
+                                    <a href="electronics.html">Home - Electronics</a>
+                                    <a href="NFT.html">Home - NFT </a>
+                                    <a href="fashion.html">Home - Fashion</a>
+                                    <a href="jewellery.html">Home - Jewellery</a>
+                                    <a href="furniture.html">Home - Furniture</a>
+                                    <a id="multipurpose" href="index.html">Home - Multipurpose</a>
+                                    <a href="rtl.html">RTL Version</a>
+                                </div>
+                               
+                                <button class="accordion">Shop <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="panel">
+                                    <a href="shopWithSideBar.html">Shop With Sidebar</a>
+                                    <a href="shopWithNoSideBar.html">Shop no Sidebar</a>
+                                    <a href="productvariation1.html">Product Variation 1</a>
+                                    <a href="productvariation2.html">Product Variation 2</a>
+                                    <a href="productvariation3.html">Product Variation 3</a>
+                                    <a href="productvariation4.html">Product Variation 4</a>
+                                    <a href="productvariation5.html">Product Variation 5</a>
+                                    <a href="productvariation6.html">Product Variation 6</a>
+                                    <a href="productvariation7.html">Product Variation 7</a>
+                                </div>
+                               
+                                <button class="accordion">Pages <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="panel">
+                                    <a href="wishlist.html">Wishlist</a>
+                                        <a href="cart.html">Cart</a>
+                                        <a href="checkout.html">Checkout</a>
+                                        <a href="account.html">Account</a>
+                                        <a href="signUp.html">Sign Up</a>
+                                        <a href="signIn.html">Sign In</a>
+                                        <a href="forgetPassword.html">Forgot Password</a>
+                                        <a href="resetPassword.html">Reset Password</a>
+                                        <a href="privacyPolicy.html">Privacy Policy</a>
+                                        <a href="commingSoon.html">Coming Soon</a>
+                                        <a href="404.html">404 Error</a>
+                                        <a href="typography.html">Typography</a>
+                                </div>
+                                
+                                <button class="accordion">About</button>
+                            
+                                <button class="accordion">Blog <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="panel">
+                                    <a href="blogList.html">Blog List</a>
+                                    <a href="blogGrid.html">Blog Grid</a>
+                                    <a href="standardPost.html">Standard Post</a>
+                                    <a href="galleryPost.html">Gallery Post</a>
+                                    <a href="videoPost.html">Video Post</a>
+                                    <a href="audioPost.html">Audio Post</a>
+                                    <a href="quotePost.html">Quote Post</a>
+                                </div>
+                                
+                                <button class="accordion">Contact</button>
+                               
+                                
+                            </div>
+                            </div>
+                            
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="shopWithSidebar">
+        <dialog>
+            <div class="close text-end">
+                <button>
+                    x
+                  </button>
+                  
+              </div>
+              <section id="parent-right">
+              <div class="searchIconForPopUp">
+  
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="child nearClose">
+                  <div>
+                      <input type="search" placeholder="Write something....">
+
+                  </div>
+              <div class="textPartOnScreen">
+                  <div class="row">
+                      <div class="col-lg-6 col-6 col-sm-6 col-md-6">
+                          <h6>24 Results Found</h6>
+
+                      </div>
+                      <div class="col-lg-6 col-6 col-sm-6 col-md-6 text-end">
+                          <a href="productvariation1.html">View All</a>
+                      </div>
+                  </div>
+              </div>
+
+               <div id="popUpAddToBasket">
+                  
+               </div>
+              
+
+              </div>
+              
+              <div class="force-parent-scrollbar"></div>
+            </section>
+        </dialog>
+       
+        <section id="mainContact">
+            <section id="first">
+                <div class="row general">
+                    <div class="col-lg-12 text-center">
+
+                        <div class="responsiveSliderForContactSectionFirst">
+                            <div class="div">
+                                <p>STUDENT NOW GET 10% OFF : <span>GET OFFER</span></p>
+                            </div>
+                            <div class="div">
+                                <p>STUDENT NOW GET 50% OFF : <span>GET OFFER</span></p>
+                            </div>
+                            <div class="div">
+                                <p>STUDENT NOW GET 80% OFF : <span>GET OFFER</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="second">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="index.html">Home</a>
+                            <p>My Account</p>
+                            <h1>Explore All Products</h1>
+                        </div>
+                        <div class="col-lg-6 text-end rightSide">
+                            <div class="circle"></div>
+                            <img src="assets/images/product-45.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+        <section id="first">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 leftDropDownMenu">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul id="accordion" class="accordion">
+                                    <li>
+                                        <div class="link">CATEGORIES <i id="iconOnHeader"
+                                                class="fa-solid fa-plus ps-6"></i></div>
+                                        <ul class="submenu">
+                                            <li id="iconforFirst"><a href="#"><i class="fa-solid fa-circle-check"></i>
+                                                    Sun Care</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Night Care</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Treatments</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Moisturizers</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Eye Care</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Masks</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Featured</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> On Scale</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="link">GENDER <i id="iconOnHeader"
+                                                class=" fa-solid fa-plus ps-7"></i></div>
+                                        <ul class="submenu">
+                                            <li id="iconforFirst"><a href="#"><i class="fa-solid fa-circle-check"></i>
+                                                    Men (40)</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Women(56)</a></li>
+                                            <li><a href="#"><i class="fa-regular fa-circle"></i> Unisex(18)</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="link">COLORS <i id="iconOnHeader" class="fa-solid fa-plus ps-7"></i>
+                                        </div>
+                                        <ul class="submenu sbMenuForList">
+                                            <li class="red pe-2"><i class="fa-regular fa-circle-dot"></i></li>
+                                            <li class="pink pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="yellow pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="purple pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="blue pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="brown pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="grey pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="red pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="pink pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="yellow pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="purple pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="blue pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="brown pe-2"><i class="fa-solid fa-circle"></i></li>
+                                            <li class="grey pe-2"><i class="fa-solid fa-circle"></i></li>
+
+
+
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <div class="link">SIZE <i id="iconOnHeader" class="fa-solid fa-plus ps-7-5"></i>
+                                        </div>
+                                        <ul class="submenu">
+                                            <li class="border1" id="iconforFirst"><a href="#"> XS</a></li>
+                                            <li class="border1"><a href="#"> XXL</a></li>
+                                            <li class="border1"><a href="#"> MX</a></li>
+                                            <li class="border1"><a href="#"> LS</a></li>
+                                            <li class="border1"><a href="#"> XL</a></li>
+                                            <li class="border1"><a href="#"> XXL</a></li>
+                                            <li class="border1"><a href="#"> 3XL</a></li>
+                                            <li class="border1"><a href="#"> 4XL</a></li>
+
+
+
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="link">PRICE <i id="iconOnHeader"
+                                                class="fa-solid fa-plus ps-7-2"></i>
+                                        </div>
+                                        <ul class="submenu">
+                                            <li class="border1"><a href="#"> 30</a></li>
+                                            <li class="border1"><a href="#"> 5000</a></li>
+
+                                            <div class="rubber-ipt mb-m mt-3">
+                                                <div class="rubber-ipt-range"></div>
+
+                                                <div class="rubber-ipt-min"></div>
+                                                <div class="rubber-ipt-max"></div>
+
+                                                <div class="w-100 flex jcsb mt-s">
+
+                                                    <p class="rubber-value-min">
+                                                        <span>Price: $</span>
+                                                        0
+                                                    </p>
+                                                    <p class="rubber-value-max">3000</p>
+                                                </div>
+                                            </div>
+
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="reset">
+                                    <button>All Reset</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 rightSideOnFirstSecOfShopWIthSideBar">
+                        <div class="row">
+                            <div class="col-lg-12 text-end topOne">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-10 leftpart text-end">
+                                        <span>Showing 1-12 of 84 results</span>
+                                    </div>
+                                    <div class="col-lg-2 rightPart">
+                                        <select class="single-select">
+                                            <option value="">Short by Latest</option>
+                                            <option value="">Short by Oldest</option>
+                                            <option value="">Short by Name</option>
+                                            <option value="">Short by Price</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 imgSection">
+                                <div id="imgSection" class="row">
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center d-flex justify-content-center btnLoadMore">
+                                <button>Load more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="second">
+            <div class="container">
+                <section id="nineth">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 mb-3 mt-5"><i class="fa-regular fa-envelope-open"></i><span>
+                                    Newsletter</span></div>
+                            <div class="col-lg-12">
+                                <h2>Get weekly update</h2>
+                            </div>
+                            <div class="col-lg-12 d-flex flex-nowrap thelastOnNine">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <input placeholder="example@gmail.com" type="text">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <button>Subscribe</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <section id="firstForFooter">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="footerFirstForMobile col-lg-3 col-6 col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                <img src="assets/images/service1.png" alt="">
+                            </div>
+                            <div class="col-lg-9 col-9 col-md-9 col-sm-9">
+                                <h6>Fast & Secure Delivery</h6>
+                                <p>Tell about your service.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="footerFirstForMobile col-lg-3 col-6 col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                <img src="assets/images/service2.png" alt="">
+                            </div>
+                            <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                <h6>Money Back Guarantee</h6>
+                                <p>Within 10 days.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="footerFirstForMobile col-lg-3 col-6 col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3 col-3 col-md-3 col-sm-3">
+                                <img src="assets/images/service3.png" alt="">
+                            </div>
+                            <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                <h6>24 Hour Return Policy</h6>
+                                <p>No question ask.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-3 col-6 col-sm-6 col-md-6 footerFirstForMobile">
+                        <div class="row">
+                            <div class="col-lg-3 col-3 col-sm-3 col-md-3">
+                                <img src="assets/images/service4.png" alt="">
+                            </div>
+                            <div class="col-lg-9 col-9 col-sm-9 col-md-9">
+                                <h6>Pro Quality Support</h6>
+                                <p>24/7 Live support.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="secondForFooter">
+            <div class="container">
+                <div class="row secondGeneralOnFooter">
+                    <div class="footerFirstForMobile col-lg-3 col-6 col-md-6 col-sm-6 support">
+                        <h5>Support</h5>
+                        <span class="generalP">
+                            <p>685 Market Street,</p>
+                            <p>Las Vegas, LA 95820,</p>
+                            <p>United States.</p>
+
+                        </span>
+                        <div class="row mt-4">
+                            <div class="col-lg-2"><i class="fa-regular fa-envelope-open"></i></div>
+                            <div class="col-lg-10"><a href=""> example@domain.com</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="col-lg-10">
+                                <a href=""> (+01) 850-315-5862</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" footerFirstForMobile col-lg-3 col-6 col-md-6 col-sm-6 account">
+                        <h5>Account</h5>
+                        <div class="divForFooter1">
+                            <a href="">My Account</a>
+                            <div id="underHeaderBottomLinks" class="underlineFirst"></div>
+                        </div>
+                        <div class="divForFooter1">
+
+                            <a href="signIn.html">Login/Register</a>
+                            <div id="underHeaderBottomLinks" class="underlineFirst"></div>
+                        </div>
+                        <div class="divForFooter1">
+                            <a href="cart.html">Cart</a>
+                            <div id="underHeaderBottomLinks" class="underline"></div>
+
+                        </div>
+                        <div class="divForFooter1">
+                            <a href="">Wishlist</a>
+                            <div id="underHeaderBottomLinks" class="underline"></div>
+
+                        </div>
+                        <div class="divForFooter1">
+                            <a href="">Shop</a>
+                            <div id="underHeaderBottomLinks" class="underline"></div>
+
+                        </div>
+
+                    </div>
+                    <div class=" footerFirstForMobile col-lg-3 col-6 col-md-6 col-sm-6 account">
+                        <h5>Quick Link</h5>
+                        <div class="divForUnderLine">
+                            <a href="">Privacy Policy</a>
+                            <div id="underHeaderBottomLinks" class="underlineFirst"></div>
+
+                        </div>
+                        <div class="divForUnderLine">
+                            <a href="">Terms Of Use</a>
+                            <div id="underHeaderBottomLinks" class="underlineFirst"></div>
+
+                        </div>
+                        <div class="divForUnderLine">
+                            <a href="">FAQ</a>
+                            <div id="underHeaderBottomLinks" class="underline"></div>
+
+                        </div>
+                        <div class="divForUnderLine">
+                            <a href="contact.html">Contact</a>
+                            <div id="underHeaderBottomLinks" class="underline"></div>
+
+                        </div>
+                        <div class="divForUnderLine">
+                            <a href="contact.html">Contact</a>
+                            <div id="underHeaderBottomLinks" class="underline"></div>
+
+                        </div>
+
+                    </div>
+                    <div class=" footerFirstForMobile col-lg-3 col-6 col-md-6 col-sm-6">
+                        <h5>Download App</h5>
+                        <span>Save $3 With App & New User only</span>
+                        <div class="row imgPart">
+                            <div class="col-lg-6 col-6 col-sm-6 col-md-6">
+                                <a href="">
+                                    <img src="assets/images/qrCode.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-6 col-sm-6 col-md-6">
+                                <a href="">
+                                    <img src="assets/images/playAndApp.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="thirdForFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 footerLast">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="col-lg-4 footerLast text-center middleOne">
+                        © 2022. All rights reserved by <span>Axilthemes.</span>
+                    </div>
+                    <div class="col-lg-4 footerLast3 text-end lastOne">
+                        Accept For <img src="assets/images/cart-1.png" alt=""><img src="assets/images/cart-2.png"
+                            alt=""><img src="assets/images/cart-5.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/shopWithSideBar.js"></script>
+</body>
+
+</html>
